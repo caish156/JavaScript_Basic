@@ -108,3 +108,4 @@ Rabbit.prototype = {
 rabbit = new Rabbit();
 delete Rabbit.prototype.eats;
 console.log(rabbit.eats); // ? false because that time we deleted property from prototype.
+
